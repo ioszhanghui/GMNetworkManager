@@ -8,11 +8,15 @@
 
 #import "GMAppDelegate.h"
 
+#import "GMNetworkManager.h"
+
 @implementation GMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [GMNetworkManager startNetworkNotifier];
+    
     return YES;
 }
 

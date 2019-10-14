@@ -7,6 +7,7 @@
 //
 
 #import "GMViewController.h"
+#import "GMNetworkManager.h"
 
 @interface GMViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%d",[GMNetworkManager shareNetworkManager].availableNetwork);
+
 }
 
 - (void)didReceiveMemoryWarning

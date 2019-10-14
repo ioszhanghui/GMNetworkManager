@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GMNetworkManager (0.1.0):
+    - Reachability
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GMNetworkManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+    - Reachability
+
+EXTERNAL SOURCES:
+  GMNetworkManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GMNetworkManager: 379a5dbe2ca8a5ad42e2031959ff0b71b9e025c4
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: 66941fe4dd9867c7c2740eb3be5f9e808c7cd6fe
+
+COCOAPODS: 1.5.3

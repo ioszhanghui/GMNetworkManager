@@ -1,0 +1,27 @@
+{
+  "name": "GMNetworkManager",
+  "version": "0.1.0",
+  "summary": "A short description of GMNetworkManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ioszhanghui@163.com/GMNetworkManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ioszhanghui@163.com": "yomingyo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ioszhanghui@163.com/GMNetworkManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GMNetworkManager/Classes/**/*",
+  "dependencies": {
+    "Reachability": [
+
+    ]
+  }
+}
